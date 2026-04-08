@@ -28,7 +28,7 @@ Do not spend time on these.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Li⁺ diffusion coefficient in LiPF6 EC:DMC electrolyte at 25°C | D₀ | m²/s | 10⁻¹⁰ to 10⁻⁹ | "lithium ion diffusion coefficient LiPF6 EC DMC" | | | | ⬜ |
+| Li⁺ diffusion coefficient in LiPF6 EC:DMC electrolyte at 25°C | D₀ | m²/s | 10⁻¹⁰ to 10⁻⁹ | "lithium ion diffusion coefficient LiPF6 EC DMC" | 2.5 × 10⁻¹⁰ m²/s at 20°C  |Metrohm autolab research  |file:///C:/Users/Nimis/Downloads/AN-BAT-009.pdf| ⬜ |
 
 ---
 
@@ -37,9 +37,9 @@ Find all three together — they are in the same datasheet.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Anode surface area of target cell | A | mm² | — | "LG M50 INR21700 datasheet teardown" | | | | ⬜ |
-| Fast charge current | I_fast | A | — | "LG M50 INR21700 datasheet" | | | | ⬜ |
-| Slow charge current (standard) | I_slow | A | — | "LG M50 INR21700 datasheet" | | | | ⬜ |
+| Anode surface area of target cell | A | mm² | 70,000 – 80,000 mm²| "LG M50 INR21700 datasheet teardown" |75,000 mm | Teardown-based estimation (LG M50 INR21700 teardown)| | ⬜ |
+| Fast charge current | I_fast | A | 4 A to 5 A | "LG M50 INR21700 datasheet" |4.8 A |LG M50 INR21700 datasheet |https://www.dnkpower.com/wp-content/uploads/2019/02/LG-INR21700-M50-Datasheet.pdf | ⬜ |
+| Slow charge current (standard) | I_slow | A | 2.4 A to 2.6 A | "LG M50 INR21700 datasheet" |2.5 A |LG M50 INR21700 datasheet |https://www.dnkpower.com/wp-content/uploads/2019/02/LG-INR21700-M50-Datasheet.pdf | ⬜ |
 
 ---
 
@@ -47,7 +47,7 @@ Find all three together — they are in the same datasheet.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Cycle life to 80% capacity retention | N_rated | cycles | 300–800 | "LG M50 cycle life capacity retention" | | | | ⬜ |
+| Cycle life to 80% capacity retention | N_rated | cycles | 300–800 | "LG M50 cycle life capacity retention" |500 cycles |LG Energy Solution INR21700 M50 Datasheet | https://www.dnkpower.com/wp-content/uploads/2019/02/LG-INR21700-M50-Datasheet.pdf| ⬜ |
 
 ---
 
