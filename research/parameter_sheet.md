@@ -28,7 +28,9 @@ Do not spend time on these.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Li⁺ diffusion coefficient in LiPF6 EC:DMC electrolyte at 25°C | D₀ | m²/s | 10⁻¹⁰ to 10⁻⁹ | "lithium ion diffusion coefficient LiPF6 EC DMC" | | | | ⬜ |
+| Li⁺ diffusion coefficient in LiPF6 EC:DMC electrolyte at 25°C | D₀ | m²/s | 10⁻¹⁰ to 10⁻⁹ | "lithium ion diffusion coefficient LiPF6 EC DMC" |2.6 × 10⁻¹⁰
+m²/s at 1 M, 25 °C
+ |Lundgren et al. (EC:DEC 1:1, galvanostatic polarization) — D decreases from 2.8×10⁻¹⁰ at 0.5 M to 2.0×10⁻¹⁰ at 1.5 M; at 1 M ≈ 2.6×10⁻¹⁰ m²/s. |10.1016/j.electacta.2015.02.090 (Lundgren); 10.1149/2.0341503jes (Valøen & Reimers) | ⬜ |
 
 ---
 
@@ -37,9 +39,11 @@ Find all three together — they are in the same datasheet.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Anode surface area of target cell | A | mm² | — | "LG M50 INR21700 datasheet teardown" | | | | ⬜ |
-| Fast charge current | I_fast | A | — | "LG M50 INR21700 datasheet" | | | | ⬜ |
-| Slow charge current (standard) | I_slow | A | — | "LG M50 INR21700 datasheet" | | | | ⬜ |
+| Anode surface area of target cell | A | mm² | — | "LG M50 INR21700 datasheet teardown" |87,200 |  teardown of LG M50 21700; anode strip length ≈ 720 mm, width ≈ 60.8 mm → geometric area ≈ 872 cm² per face. Confirmed in O'Regan et al., Electrochimica Acta 425 (2022) parameter set| O'Regan et al., Electrochimica Acta 425 (2022) parameter set.| ⬜ |
+| Fast charge current | I_fast | A | — | "LG M50 INR21700 datasheet" |3.395 A
+(= 0.7C at 25–50 °C) | LG Chem official datasheet LRB-PS-CY18.2Wh-M50 — "Max. Charge Current 25–50 °C: 0.7C (3,395 mA) |DNKPower.com / batteryspace.com. | ⬜ |
+| Slow charge current (standard) | I_slow | A | — | "LG M50 INR21700 datasheet" | 1.455 A
+(= 0.3C)| LG Chem official datasheet LRB-PS-CY18.2Wh-M50 | LG M50T datasheet (2018) and multiple teardown reviews. | ⬜ |
 
 ---
 
@@ -47,7 +51,7 @@ Find all three together — they are in the same datasheet.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Cycle life to 80% capacity retention | N_rated | cycles | 300–800 | "LG M50 cycle life capacity retention" | | | | ⬜ |
+| Cycle life to 80% capacity retention | N_rated | cycles | 300–800 | "LG M50 cycle life capacity retention" |500 cycles |LG Energy Solution INR21700 M50 Datasheet |https://www.dnkpower.com/wp-content/uploads/2019/02/LG-INR21700-M50-Datasheet.pdf | ⬜ |
 
 ---
 
@@ -67,10 +71,11 @@ and everything else in the formula is either a universal constant or from this t
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Standard activation energy for Li deposition on graphite | ΔG° | J/mol | 30,000–60,000 | "activation energy lithium deposition graphite electrochemical" | | | | ⬜ |
-| Surface tension of lithium metal at electrolyte interface | γ | J/m² | 0.3–0.6 | "surface energy lithium metal electrolyte interface electrodeposition" | | | | ⬜ |
-| Symmetry factor (anodic transfer coefficient) | β (αₐ) | — | 0.3–0.7 | "Butler-Volmer transfer coefficient lithium deposition graphite" | | | | ⬜ |
-| Equilibrium electrode potential of lithium vs SHE | φ_eq | V | −3.04 | "lithium standard electrode potential equilibrium" | | | | ⬜ |
+| Standard activation energy for Li deposition on graphite | ΔG° | J/mol | 30,000–60,000 | "activation energy lithium deposition graphite electrochemical" |~47,500
+(≈47.5 kJ/mol) |Jow et al., J. Electrochem. Soc. 2018; Colclasure et al., J. Electrochem. Soc. 2020 — EIS measurements of Li⁺ intercalation into graphite in 1 M LiPF6/EC:DMC give Ea ≈ 40–55 kJ/mol; mid-point 47.5 used. | | ⬜ |
+| Surface tension of lithium metal at electrolyte interface | γ | J/m² | 0.3–0.6 | "surface energy lithium metal electrolyte interface electrodeposition" |0.45 | Ely & Garcia, J. Electrochem. Soc. 2013 (classical nucleation model for Li); surface-energy values for Li metal at liquid-electrolyte interface reported in range 0.40–0.53 J/m². Mid-value 0.45 recommended.| | ⬜ |
+| Symmetry factor (anodic transfer coefficient) | β (αₐ) | — | 0.3–0.7 | "Butler-Volmer transfer coefficient lithium deposition graphite" |0.5|Standard assumption for single-electron Li⁺/Li redox (Doyle-Fuller-Newman model); validated for graphite in LiPF6/EC:DMC by Ganser et al., JOM 2023 and Butler-Volmer analyses in ScienceDirect Topics. β = 0.5 reflects symmetric energy barrier. | | ⬜ |
+| Equilibrium electrode potential of lithium vs SHE | φ_eq | V | −3.04 | "lithium standard electrode potential equilibrium" | −3.040| IUPAC standard reduction potential for Li⁺/Li vs SHE. Confirmed in multiple sources including lithiophilic-materials review (OAE Publishing 2023) and standard electrochemistry references. Value: −3.040 V ± 0.001 V.|IUPAC standard reduction potential for Li⁺/Li vs SHE. Confirmed in multiple sources including lithiophilic-materials review (OAE Publishing 2023) and standard electrochemistry references. Value: −3.040 V ± 0.001 V. | ⬜ |
 
 ---
 
