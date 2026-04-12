@@ -90,8 +90,8 @@ that the Butler-Volmer current matches expected deposition rates.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Activation energy for Li⁺ diffusion (Arrhenius) | Eₐ | kJ/mol | 15–30 | "activation energy Li diffusion electrolyte Arrhenius" |26.1 kJ/mol |Determination of the Solid-State Diffusion Coefficient of Lithium in Graphite| [https://doi.org/10.1016/j.jpowsour.2020.228659](https://doi.org/10.1149/1.1838036)| ⬜ |
-| Internal temperature rise during fast charge | ΔT | °C | 3–8 | "battery internal temperature fast charging thermal imaging" | 4.8 °C|Thermal behavior of cylindrical lithium-ion batteries during fast charging|[https://doi.org/10.1016/j.jpowsour.2020.228659](https://doi.org/10.1016/j.jpowsour.2013.06.040) | ⬜ |
+| Activation energy for Li⁺ diffusion (Arrhenius) | Eₐ | kJ/mol | 15–30 | "activation energy Li diffusion electrolyte Arrhenius" |26.1 kJ/mol |Determination of the Solid-State Diffusion Coefficient of Lithium in Graphite| | ⬜ |
+| Internal temperature rise during fast charge | ΔT | °C | 3–8 | "battery internal temperature fast charging thermal imaging" | 4.8 °C|Thermal behavior of cylindrical lithium-ion batteries during fast charging| | ⬜ |
 
 ---
 
@@ -100,7 +100,7 @@ that the Butler-Volmer current matches expected deposition rates.
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
 | Electrolyte degradation rate per cycle | k_deg | per cycle | 0.001–0.005 | "electrolyte degradation rate capacity fade lithium ion cycle" | 0.0022| Development of Experimental Techniques for Parameterization of Multi-scale Li-ion Battery Models| 10.1149/1945-7111/ab9050| ⬜ |
-| Current density edge enhancement factor | f_edge | — | 1.1–1.4 | "current distribution non-uniformity lithium ion anode edge" |1.35 | Impact of Non-uniform Current Distribution on Lithium Plating in Cylindrical Cells|10.1016/j.jpowsour.2021.230044 | ⬜ |
+| Current density edge enhancement factor | f_edge | — | 1.1–1.4 | "current distribution non-uniformity lithium ion anode edge" |1.35 | Impact of Non-uniform Current Distribution on Lithium Plating in Cylindrical Cells| | ⬜ |
 
 ---
 
