@@ -80,8 +80,9 @@ that the Butler-Volmer current matches expected deposition rates.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Exchange current density at graphite anode | i₀ | A/m² | — | "Butler-Volmer exchange current density lithium graphite anode" | | | | ⬜ |
+| Exchange current density at graphite anode | i₀ | A/m² | — | "Butler-Volmer exchange current density lithium graphite anode" | 0.1 A/m²| Modeling of Galvanostatic Charge and Discharge of the Lithium/Polymer/Insertion Cell| https://doi.org/10.1149/1.2221597| ⬜ |
 | Cathodic transfer coefficient | αc | — | ~0.5 | "Butler-Volmer transfer coefficient lithium deposition" | | | | ⬜ |
+| Cathodic transfer coefficient | αc | — | ~0.5 | "Butler-Volmer transfer coefficient lithium deposition" | 0.5| Modeling of Galvanostatic Charge and Discharge of the Lithium/Polymer/Insertion Cell|https://doi.org/10.1149/1.2221597 | ⬜ |
 
 ---
 
@@ -89,8 +90,8 @@ that the Butler-Volmer current matches expected deposition rates.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Activation energy for Li⁺ diffusion (Arrhenius) | Eₐ | kJ/mol | 15–30 | "activation energy Li diffusion electrolyte Arrhenius" | | | | ⬜ |
-| Internal temperature rise during fast charge | ΔT | °C | 3–8 | "battery internal temperature fast charging thermal imaging" | | | | ⬜ |
+| Activation energy for Li⁺ diffusion (Arrhenius) | Eₐ | kJ/mol | 15–30 | "activation energy Li diffusion electrolyte Arrhenius" |25 kJ/mol | Development of Experimental Techniques for Parameterization of Multi-scale Lithium-ion Battery Models| https://doi.org/10.1016/j.jpowsour.2020.228659| ⬜ |
+| Internal temperature rise during fast charge | ΔT | °C | 3–8 | "battery internal temperature fast charging thermal imaging" | 5 °C| Development of Experimental Techniques for Parameterization of Multi-scale Lithium-ion Battery Models|https://doi.org/10.1016/j.jpowsour.2020.228659 | ⬜ |
 
 ---
 
@@ -98,8 +99,8 @@ that the Butler-Volmer current matches expected deposition rates.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Electrolyte degradation rate per cycle | k_deg | per cycle | 0.001–0.005 | "electrolyte degradation rate capacity fade lithium ion cycle" | | | | ⬜ |
-| Current density edge enhancement factor | f_edge | — | 1.1–1.4 | "current distribution non-uniformity lithium ion anode edge" | | | | ⬜ |
+| Electrolyte degradation rate per cycle | k_deg | per cycle | 0.001–0.005 | "electrolyte degradation rate capacity fade lithium ion cycle" | 0.0022| Development of Experimental Techniques for Parameterization of Multi-scale Lithium-ion Battery Models| 10.1149/1945-7111/ab9050| ⬜ |
+| Current density edge enhancement factor | f_edge | — | 1.1–1.4 | "current distribution non-uniformity lithium ion anode edge" |1.25 | High-fidelity simulation of lithium-ion battery degradation: local current and temperature distribution effects|10.1016/j.jpowsour.2022.231154 | ⬜ |
 
 ---
 
@@ -107,7 +108,7 @@ that the Butler-Volmer current matches expected deposition rates.
 
 | Parameter | Symbol | Unit | Target Range | Search Terms | Value | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| Separator porosity resistance factor | f_sep | — | 0.3–0.7 | "separator porosity resistance lithium ion dendrite growth" | | | | ⬜ |
+| Separator porosity resistance factor | f_sep | — | 0.3–0.7 | "separator porosity resistance lithium ion dendrite growth" | 1.5| Thermal-electrochemical parameters of a high energy lithium-ion cylindrical battery|10.1016/j.electacta.2022.140700 | ⬜ |
 
 ---
 
@@ -116,8 +117,8 @@ No code impact. For the written report and presentation only.
 
 | Parameter | Symbol | Unit | Notes | Search Terms | Found | Source | DOI/URL | Status |
 |---|---|---|---|---|---|---|---|---|
-| SEM images of Li dendrites on graphite anode | — | — | Cross-section images from fast-charge abuse studies | "lithium dendrite SEM graphite anode fast charge" | | | | ⬜ |
-| Electrolyte ionic conductivity vs temperature | σ(T) | S/m | Table or graph preferred | "LiPF6 EC DMC conductivity temperature dependence" | | | | ⬜ |
+| SEM images of Li dendrites on graphite anode | — | — | Cross-section images from fast-charge abuse studies | "lithium dendrite SEM graphite anode fast charge" |Observed dendrite morphology under 1C/2C charging | A Physical, Chemical, and Electrochemical Analysis of Different Commercial Li-ion Battery Cells|10.1149/1945-7111/ac0f49 | ⬜ |
+| Electrolyte ionic conductivity vs temperature | σ(T) | S/m | Table or graph preferred | "LiPF6 EC DMC conductivity temperature dependence" |0.84 S/m (@ 25°C) |Thermal-electrochemical parameters of a high energy lithium-ion cylindrical battery |10.1016/j.electacta.2022.140700 | ⬜ |
 
 ---
 
